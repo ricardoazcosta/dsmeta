@@ -73,7 +73,7 @@ useEffect(() => {
                     sales.map(sale => {
                       return(
 
-                        <tr key={sale.id}>
+                 <tr key={sale.id}>
                     <td className="show992">{sale.id}</td>
                     <td className="show576">{new Date(sale.date).toLocaleDateString()}</td>
                     <td>{sale.sellerName}</td>
